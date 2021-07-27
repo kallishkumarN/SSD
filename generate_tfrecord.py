@@ -32,7 +32,7 @@ FLAGS = flags.FLAGS
 
 # replace row_label with the name you annotated your images as
 def class_text_to_int(row_label):
-    if row_label == 'unusual':
+    if row_label == 'weapon-unusual':
         return 1
     else:
         return 0
